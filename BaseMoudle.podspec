@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseMoudle'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '基础组件'
 
 # This description is used to generate tags and improve search results.
@@ -37,23 +37,23 @@ TODO: 基础组件 一些扩展
   }
   
   s.frameworks = 'UIKit'
-  s.dependency 'ModelProtocol'
-  s.dependency 'EmptyDataView'
-  s.dependency 'RxSwift'  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
-  s.dependency 'RxCocoa'
-  s.dependency 'CryptoSwift'
+#  s.dependency 'EmptyDataView'
+  s.dependency 'ModelProtocol','~> 0.1.0'
+  s.dependency 'RxSwift','~> 5.1.1'
+  s.dependency 'RxCocoa','~> 5.1.1'
+  s.dependency 'CryptoSwift','~> 1.3.1'
   s.dependency 'SwiftyUserDefaults'
   #动画显示
-  s.dependency 'NVActivityIndicatorView'
+  s.dependency 'NVActivityIndicatorView','~> 5.0.1'
   #autolayout的封装
-  s.dependency 'SnapKit'
+  s.dependency 'SnapKit','~> 5.0.1'
   #toast提示框
-  s.dependency 'Toast-Swift'
-  s.dependency 'MJRefresh'
-  s.dependency 'Kingfisher'
-  s.dependency 'MBProgressHUD'
-  s.dependency 'URLNavigator'
-  s.dependency 'WebViewJavascriptBridge'
+  s.dependency 'Toast-Swift','~> 5.0.1'
+  s.dependency 'MJRefresh','~> 3.5.0'
+  s.dependency 'Kingfisher','~> 5.15.0'
+  s.dependency 'MBProgressHUD','~> 1.2.0'
+  s.dependency 'URLNavigator','~> 2.3.0'
+  s.dependency 'WebViewJavascriptBridge','~> 6.0.3'
   
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
