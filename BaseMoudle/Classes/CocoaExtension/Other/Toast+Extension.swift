@@ -11,7 +11,7 @@ import Foundation
 import Toast_Swift
 import RxCocoa
 import RxSwift
-import ModelProtocol
+import NetworkMoudle
 import URLNavigator
 
 extension UIView {

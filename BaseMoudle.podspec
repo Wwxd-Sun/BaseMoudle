@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseMoudle'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = '基础组件'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,8 @@ TODO: 基础组件 一些扩展
   
   s.frameworks = 'UIKit'
 #  s.dependency 'EmptyDataView'
-  s.dependency 'ModelProtocol','~> 0.1.0'
+#  s.dependency 'ModelProtocol','~> 0.0.1'
+  s.dependency 'NetworkMoudle', '~> 0.0.9'
   s.dependency 'RxSwift','~> 5.1.1'
   s.dependency 'RxCocoa','~> 5.1.1'
   s.dependency 'CryptoSwift','~> 1.3.1'

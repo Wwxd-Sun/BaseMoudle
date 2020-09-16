@@ -12,7 +12,7 @@
  info: web界面
  */
 import RxSwift
-import ModelProtocol
+import NetworkMoudle
 import WebViewJavascriptBridge
 import SwiftyJSON
 

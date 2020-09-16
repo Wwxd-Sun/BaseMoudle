@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import ModelProtocol
 import RxSwift
 
 open class Base_Vc: UIViewController {

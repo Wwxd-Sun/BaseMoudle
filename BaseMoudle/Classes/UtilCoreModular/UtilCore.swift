@@ -8,7 +8,7 @@
 
 import Foundation
 import SwiftyUserDefaults
-import ModelProtocol
+import NetworkMoudle
 import NVActivityIndicatorView
 
 /// 本模块的名称， 本模块的storyboard 名称必须 与模块名称相同 ,已经用于静态资源的加载回用到
